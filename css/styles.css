@@ -395,6 +395,20 @@ img {
   color: var(--second-text-color);
 }
 
+.modal-form-agreement-desc::before {
+  content: ' ';
+  display: block;
+  width: 16px;
+  height: 15px;
+  border: 1px solid var(--first-text-color);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.modal-form-agreement + .modal-form-agreement-desc::before {
+  border: 0.2px solid var(--third-text-color);
+}
+
 .modal-form-agreement-link {
   color: var(--accent-color);
 }
