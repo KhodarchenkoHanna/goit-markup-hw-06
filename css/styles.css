@@ -941,4 +941,45 @@ img {
   background-color: var(--accent-color);
 }
 
+.footer-form-wrapper {
+  margin-left: auto;
+}
+
+.footer-form-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-text-color);
+}
+
+.footer-form-button {
+  min-width: 200px;
+  min-height: 50px;
+  padding: 10px 32px;
+  align-items: baseline;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+  box-shadow: var(--btn-box-shadow-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-button:hover,
+.footer-form-button:focus {
+  background-color: var(--alternative-accent-color);
+  outline: none;
+}
+
 /* FOOTER END*/
