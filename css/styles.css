@@ -414,6 +414,7 @@ img {
 .modal-form-agreement:checked + .modal-form-agreement-desc::before {
   border: 0.2px solid var(--third-text-color);
   background-image: url(../images/check.svg);
+  fill: var(--third-text-color);
   background-repeat: no-repeat;
   background-size: contain;
   background-color: var(--alternative-accent-color);
