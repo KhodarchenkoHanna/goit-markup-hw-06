@@ -124,6 +124,8 @@ img {
   margin-right: 90px;
   padding-top: 24px;
   padding-bottom: 24px;
+
+  animation-duration: 3000ms;
 }
 
 .logo-part {
@@ -286,6 +288,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transform-origin: center left;
 
   display: flex;
   min-width: 528px;
@@ -297,6 +300,7 @@ img {
   background-color: var(--third-text-color);
 
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation-duration: 3000ms;
 }
 
 .modal-form {
@@ -433,6 +437,7 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
+
   display: flex;
   align-items: center;
   justify-content: center;
